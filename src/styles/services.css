@@ -1,0 +1,129 @@
+.page-container{
+    background: url('../Media/background.png') lightgray 50% / cover no-repeat;
+    background-size: cover;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.service-container {
+    flex-grow: 1;      
+}
+    
+
+.cd{
+    width: 85%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    gap: 20px;
+}
+
+
+.vector-container{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+    display:flex ;
+    justify-content: center;
+
+}
+
+.svg {
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+.white {
+    
+    width: 80%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: -10px;
+    
+}
+
+
+.white p{
+    width: 85%;
+    margin-top: 25px;
+    padding-left:50px ;
+    padding-right:50px ;
+    text-align: left;
+    justify-content: center;
+}
+
+.p{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+}
+
+.icon{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+
+.flori{
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 768px) {
+      
+    .flori{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .svg{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .white{
+        width: 85%;
+        height: 45%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .paragraph{
+        width: 85%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+   }
+
+
+
+
+
+
+  
+  
