@@ -5,8 +5,11 @@ import Footer from "./Footer";
 
 function About() {
   return (
-    <div className="about-container">
+    <>
+    <div className="background-image"></div>
       <Header />
+
+      <div className="about-container">
       <h1 className="about-h1">About Us</h1>
       <div className="about-main">
       <div className="about-svg">
@@ -150,8 +153,9 @@ function About() {
           </p>
         </div>
       </div>
+      </div>
       <Footer/>
-    </div>
+    </>
   );
 }
 
