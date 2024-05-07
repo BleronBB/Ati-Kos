@@ -86,6 +86,7 @@
 .socials,
 .cnt,
 .copyright {
+  align-items: flex-start;
   color: #FFF;
   font-size: 16px;
   font-style: normal;

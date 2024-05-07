@@ -8,8 +8,10 @@ import Footer from "./Footer";
 
 function News() {
   return (
+    <>
+    <div className="news-bcg-image"></div>
+    <Header />
     <div className="news-container">
-      <Header />
       <div>
         <h1 className="news-h1">NEWS</h1>
       </div>
@@ -96,8 +98,9 @@ function News() {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
     </div>
+    <Footer/>
+    </>
   );
 }
 

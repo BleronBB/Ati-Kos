@@ -20,9 +20,20 @@ import diagrami from "../Media/diagrami.png";
 import laptop from "../Media/laptop.mp4";
 
 function Products() {
+
+ const handleClickFirstButton = () => {
+    window.location.href = 'https://smartpoleskosovo.com';
+}
+
+ const handleClickSecondButton = () => {
+    window.location.href = 'https://Smartcity.e-komuna.com';
+}
+
   return (
+    <>
+    <div className="product-bcg-image"></div>
+    <Header />
     <div className="products-container">
-      <Header />
       <div className="h1">
         <h1>SMART CITY</h1>
       </div>
@@ -58,7 +69,7 @@ function Products() {
         <div className="multi-poles">
           <h1>MULTIFUNCTIONAL POLES</h1>
         </div>
-        <div className="multi-p">
+        <div className="p">
           <p>
             The ATI-KOS Smart City system is unique, because its based
             completely on IP (Internet Protocol) and is Integrated system for
@@ -134,10 +145,12 @@ function Products() {
           <h1>SMART BENCH</h1>
         </div>
         <div className="p">
+          <p>
           The smart bench is a product of ATI-KOS and can be installed near the
           Multifunctional Pole or separately. The bench offers various services
           such as: mobile phone charging via USB or Wireless charger, smart
           lighting which is managed via the IoT platform and the Smart Box.
+          </p>
         </div>
         <div className="smart-bench">
           <img className="photo-bench" src={bench1}></img>
@@ -188,7 +201,7 @@ function Products() {
           <h1>POLE SCHEME</h1>
         </div>
         <div className="pole-scheme">
-          <img src={diagrami}></img>
+          <img className="diagrami" src={diagrami}></img>
         </div>
         <div className="iot">
           <h1>IoT PLATFORM</h1>
@@ -213,21 +226,20 @@ function Products() {
           <p>7.Citizen engagement</p>
         </div>
         <div className="iot-platform">
-          <div className="iotb">
-            <button className="iot-button">Smart Poles Kosovo</button>
-            <button className="iot-button">Smart Poles Gjakova</button>
-          </div>
+        <div className="iotb">
+                <button className="iot-button" onClick={handleClickFirstButton}>Smart Poles Kosovo</button>
+                <button className="iot-button" onClick={handleClickSecondButton}>Smart Poles Gjakova</button>
+            </div>
            <div> 
             <video width="550" height="500" autoPlay muted loop>
               <source src={laptop} type="video/mp4" />
             </video>
           </div> 
         </div>
-        <Footer/>
-      </div> 
-      
+      </div>
     </div>
-    
+    <Footer/>
+    </>
   );
 }
 

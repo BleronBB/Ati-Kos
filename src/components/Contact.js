@@ -8,8 +8,10 @@ import Footer from './Footer';
 
 function Contact() {
   return (
+    <>
+    <div className="contact-bcg-image"></div>
+    <Header />
     <div className='main-contact'>
-      <Header />
       <div>
         <h1 className='h1-contact'>Contact Us</h1>
       </div>
@@ -27,7 +29,7 @@ function Contact() {
 
           <label htmlFor="email">Email:</label>
           <input
-            type="email"
+            type="text"
             id="email"
             name="email"
             placeholder="Email"
@@ -67,8 +69,9 @@ function Contact() {
         </div>
       </div>
       </div>
-      <Footer/>
     </div>
+    <Footer/>
+    </>
   )
 }
 
