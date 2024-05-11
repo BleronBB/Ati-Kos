@@ -149,7 +149,7 @@ function Home() {
 
       <div class="home-contact">
         <form
-          action="https://formsubmit.co/bleron.buza@gmail.com"
+          action="https://formsubmit.co/info@ati-kos.com"
           method="POST"
           class="label-form"
         >
@@ -191,11 +191,12 @@ function Home() {
           </p>
           <p>
             {" "}
-            <AiOutlineMail /> ati-kos@gmail.com
+            <AiOutlineMail /> info@ati-kos.com
           </p>
           <p>
             {" "}
-            <BsTelephone /> 044 129 086
+            <BsTelephone /> 049 974 123
+            
           </p>
           <p>
             {" "}

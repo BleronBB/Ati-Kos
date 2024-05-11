@@ -56,11 +56,11 @@ function Contact() {
           </p>
           <p>
             {" "}
-            <AiOutlineMail /> ati-kos@gmail.com
+            <AiOutlineMail /> info@ati-kos.com
           </p>
           <p>
             {" "}
-            <BsTelephone /> 044 129 086
+            <BsTelephone /> 049 974 123
           </p>
           <p>
             {" "}

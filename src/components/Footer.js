@@ -27,8 +27,8 @@ function Footer() {
 
         <div class="cnt">
           <p>Contact :</p>
-          <a>ati-kos@gmail.com</a>
-          <a> 044 129 086</a>
+          <a>info@ati-kos.com</a>
+          <a>049 974 123</a>
         </div>
       </div>
     </div>
