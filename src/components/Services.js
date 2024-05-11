@@ -26,17 +26,15 @@ function Services(props) {
       <Header />
 
       <div className="service-container">
-        <div className="cd">
-          <div className="flori" onClick={() => handlePhotoClick(1)}>
+        <div className="service-main">
+          <div className="service-image" onClick={() => handlePhotoClick(1)}>
             {activePhoto === 1 ? (
               <img
-                className="mondi"
                 src={active1}
                 alt="Description of the image"
               />
             ) : (
               <img
-                className="mondi"
                 src={tele}
                 alt="Description of the image"
               />
@@ -59,16 +57,14 @@ function Services(props) {
             )}
           </div>
 
-          <div className="flori" onClick={() => handlePhotoClick(2)}>
+          <div className="service-image" onClick={() => handlePhotoClick(2)}>
             {activePhoto === 2 ? (
               <img
-                className="mondi"
                 src={active2}
                 alt="Description of the image"
               />
             ) : (
               <img
-                className="mondi"
                 src={data}
                 alt="Description of the image"
               />
@@ -91,16 +87,14 @@ function Services(props) {
             )}
           </div>
 
-          <div className="flori" onClick={() => handlePhotoClick(3)}>
+          <div className="service-image" onClick={() => handlePhotoClick(3)}>
             {activePhoto === 3 ? (
               <img
-                className="mondi"
                 src={active3}
                 alt="Description of the image"
               />
             ) : (
               <img
-                className="mondi"
                 src={grupi}
                 alt="Description of the image"
               />

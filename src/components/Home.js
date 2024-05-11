@@ -210,7 +210,7 @@ function Home() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.9664197938564!2d20.43493507563084!3d42.38586183347169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1353b1fccfba2a21%3A0x97e26f1bcd15891!2sATI-KOS!5e0!3m2!1sen!2s!4v1711049194102!5m2!1sen!2s"
           width="1000px"
           height="500"
-          allowfullscreen=""
+          allowFullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>

@@ -13,7 +13,7 @@
 }
     
 
-.cd{
+.service-main{
     width: 85%;
     margin: auto;
     margin-top: 10%;
@@ -81,7 +81,7 @@
 }
 
 
-.flori{
+.service-image{
     position: relative;
 }
 
@@ -89,7 +89,7 @@
 
 @media screen and (max-width: 768px) {
       
-    .flori{
+    .service-image{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
