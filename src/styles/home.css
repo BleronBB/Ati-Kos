@@ -3,10 +3,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
     flex-shrink: 0;
     overflow: hidden;
-    
 }
 
 
@@ -99,7 +97,7 @@
     aspect-ratio: 1.06;
     object-fit: auto;
     object-position: center;
-    width: 100%;
+    width: 85%;
     max-width: 228px;   
 }
 
@@ -391,6 +389,11 @@ h2{
     @media screen and (max-width: 768px) {
 
 
+        .home-paragraph1{
+            padding-top: 50px;
+        }
+
+
         .home-paragraph{
             padding-top: 20%;
         }
@@ -409,7 +412,7 @@ h2{
 
         .additional-text {
         width: 85%;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         margin-right: 0;
         }
 
@@ -430,7 +433,7 @@ h2{
         }
 
         .fotosmart{
-            width: 100%;
+            width: 85%;
             height: 150px;
         }
 
@@ -438,7 +441,14 @@ h2{
             padding-bottom: 40px;
         }
 
-    
+        .home-services{
+            gap: 50px;
+        }
+
+        .label-form{
+            width: 85%;
+            padding-right: 30px;
+        }
 
       }
       

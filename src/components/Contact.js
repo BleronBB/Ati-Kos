@@ -17,7 +17,7 @@ function Contact() {
       </div>
       <div className='container-contact'>
       <div class="form-contact">
-        <form action="https://formsubmit.co/bleron.buza@gmail.com" method="POST" class="label-contact">
+        <form action="https://formsubmit.co/info@ati-kos.com" method="POST" class="label-contact">
           <label htmlFor="name">Name:</label>
           <input
             type="text"

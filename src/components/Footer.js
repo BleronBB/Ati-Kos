@@ -8,7 +8,7 @@ function Footer() {
       <img className="foto" src={footer}></img>
       <div className="main-footer">
         <div class="copyright">
-          Copyright @ 2024 Ati-kos. All rights reserved.
+          Copyright @ 2024 Ati-Kos. All rights reserved.
         </div>
         <div className="company">
           <p>Company :</p>
